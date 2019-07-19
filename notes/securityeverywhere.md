@@ -17,10 +17,17 @@ Once I was inside I sat down and realised that all you really needed was:
 The first one and the third one are probably the hardest to get a hold of/develop. You
 could probably find one lying around, or build the confidence to ask/borrow one.
 
+I locked myself out the room again and this time I also went down again to the lady in
+the reception. This time she juust gave me the master key to all the rooms in the
+building and asked me to go up and unlock it myself.
+
+Not even going to say anything about this one.
+
 Conmen are successful because of the confidence that they possess. Clearly in this case
 I wasn't a conman because I actually had access to the room itself, but if you didn't,
 this shows it's not especially hard to get access to something you shouldn't if you're
 resourceful and confident.
+``
 
 # Frank Abagnale
 
@@ -35,3 +42,22 @@ required an actual Pan Am logo, which he was able to source from logo stickers f
 on Pan Am Boeing 747 model aircraft that he noticed while walking by a shop.
 
 So having the imagination - or the "what if" is so important as well.
+
+# Maccas run
+Was at Maccas, and they have deals for mobile users - two to be specific. Was feeling
+pretty hungry so I decided to buy both meals. How the Maccas app works is that you
+submit the order through your phone and receive an orderID that allows you to pick up
+the order from the counter. The app should theoretically issue you with two ID's so 
+you can pick both up.
+
+But it doesn't support the display of multiple orderID's. So I could pick up my second
+order but not my first order. I kept waiting for my first order but it never came.
+After talking to the staff about it they said it wasn't even on the system.
+
+As a result they just decided to make the order on the spot for me and pass it to me.
+To be fair, I did have some record of the order in my recent orders section of the app;
+just no orderID associated with that order. The order isn't even timestamped so in
+theory you could just take a screenshot of that particular screen and present to the
+staff and say the exact same thing.
+
+

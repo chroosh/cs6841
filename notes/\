@@ -76,16 +76,3 @@ Weaknesses:
 - Re-transmitting a message on different cipher networks
 - Not allowing repetitions
 
-# One Time Pad
-OTP is an encryption technique that cannot be cracked, but requires the use of a one
-time, pre-shared key the same size as or longer than the message being sent. In this
-technique, a plain text is paired iwth a random secret key (the OTP). Then, each bit
-or character of the plaintext is encrypted by combining it with the corresponding bit
-or character from the pad using modular addition.
-
-Like Vignere, but the password is the length of the message and completely random.
-Once used, the cipher should be discarded.
-
-# Type 1 vs Type 2 Errors
-Type 1: False positive - medical test saying you have a disease when you dont.
-Type 2: False negative - medical test saying you don't have a dease when you do.

@@ -19,7 +19,7 @@ lea edx DWORD PTR [ebp-0x10] // we know that the variable (passcode1) is ebp-0x1
 lea edx DWORD PTR [ebp-0xc]  // we know that the variable (passcode2) is ebp-0x20
 
 The difference between the name and passcode1 variable is 96, which is smaller than the size of
-the name buffer. As a result, the last 4 bytes are read into password1?
+the name buffer (100). As a result, the last 4 bytes are read into password1?
 
 ## Payload
 If we fill the name buffer (with 96 * 'A') and pass the address of fflush into the last 4 digits
@@ -32,6 +32,9 @@ and retrieve the flag.
 
 We can find the addresses of fflush() and system() using 
 objdump -R passcode
+
+Final payload looks like:
+python -c "print('A' * 96 + '\x04\xa0\x04\x08' + '134514147')" | ./passcode
 
 ## Global Offset Table
 The Global Offset Table is a place in which binary stores the address of functions that are

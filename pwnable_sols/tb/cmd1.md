@@ -2,12 +2,12 @@
 
 Two functions filter and main
 
-* Main:
+## main:
 Putenv adds the env variable /thankyouverymuch to the environment list - essentially changes
 where the system looks for, for the folder containing executables (cat - etc) (usually /bin
 instead of /thankyouverymuch)
 
-* Filter
+## filter
 Will return a value to invoke an early exit for the main function if the argv[1] conains any
 instance of the strings "flag" "sh" or "tmp".
 To get around this we can echo each letter individually - "f""l""a""g"

@@ -30,5 +30,5 @@ Essentially, just create a file containing \x00\x00\x00\x00.
 Sockets are essentially endpoints for sending and receiving data 
 on a computer network...
 
-Jokes this one I got a lot of help from. Should spend some time
+Jokes this part I got a lot of help from. Should spend some time
 one day and learn about networks properly.

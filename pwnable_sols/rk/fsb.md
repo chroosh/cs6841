@@ -12,8 +12,7 @@ validate the submitted input.
 
 <!-- this should rewritten with consideration to what caff said -->
 Supplying the %x in a printf function that is expecting more
-arguments. If these arguments aren't supplied the function could
-read or write the stack.
+arguments could allow you to read data from the stack.
 
 ---
 
@@ -91,8 +90,37 @@ The addresses of things that are important to us are:
 
 // This is probably an easier way to tell where buf is located.
 
-Using %134520928c (which is )
+### Format string 1
+Using %134520928c (which is 08040a60 in hex) to output exactly
+08040a60 bytes. Add %14$n to the string to write this value:
+address of (key) to the 14th argument. (Position 14 on the stack
+dump)
 
+You also want to write to the 15th argument, which is 4 bytes
+greater. So you add 1111 (symbolising 4 bytes) to 08040a60 to get
+0804a064 and store that in the 15th argument, %15$n.
 
+> %134520928c%14$n1111%15$n
 
+### Format string 2
+You want to write 0x00000000 to the memory pointed to by args 20
+and 21. (ie - what args 14 and 15 are pointing to) 
+
+Essentially now the address of the key is now stored on the stack
+in args 14 and 15. Args 14 and 15 point to args 20 and 21. So if
+you set args 20 and 21 to 0x00000000, the key is now 0x00000000
+
+> %20$n%21$n
+
+fs 3 and 4 are whatver you choose.
+
+All you need to do now is pass 00000000 in buf2, and it will pass 
+the auth and launch a shell (/bin/sh)
+
+* Make sure to output into /dev/null and then redirect the output
+to stdout
+
+(>&2 cat flag) << I dont really know what this does. I know >&2 
+outputs to stderr the "cat flag" and that works because it's in
+a shell. But idk why it's in brackets or so.
 

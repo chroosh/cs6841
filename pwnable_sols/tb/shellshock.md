@@ -1,17 +1,17 @@
 # shellshock
 
 Did some digging up and found that bash shocks were a series of security bugs found in 2014.
-
-This program sets the values of the real, effective, setuser user and group id (resgid) to the 
-value of his effective group id (egid) and then executes a vulnerable version of bash.
-
-## Environment variables:
-Are variables that are set outside of a program, typically through functionality built into the
-operating system. Env variables usually exist in name value pairs.
+CVE-2014-6271 is recorded to have affected bash 4.3.48(1) - the version being used for this
+challenge.
 
 ## How does a Bash Shock work?
 You can write functions in bash - and if you export them, bash stores the function definition
 as an environment variable.
+
+### Environment variables:
+Are variables that are set outside of a program, typically through functionality built into the
+operating system. Env variables usually exist in name value pairs.
+
 
 foo() { bar; }
 >> environment var foo has the contents:

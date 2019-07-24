@@ -29,6 +29,8 @@ typed in. So the only characters you can use are:
 - ,
 - -
 
+## payload
+
 Looking at the for loop, another bug becomes apparent. The 
 double for loop will iterate for all of the characters in the
 submit buffer for one character at a time in the lotto buffer.

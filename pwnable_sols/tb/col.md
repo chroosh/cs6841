@@ -33,7 +33,7 @@ it into 4 x 0x01010101 and 1 x 0x1dd905e8 = 0x21DD09EC
 
 The Python shell is a good way to do this. - You can also use python to generate input:
 
-./col "`python -c "print '\x01\x01\x01\x01' x 4 + '\xe8\x05\xd9\x1d' "`""
+./col "`python -c "print '\x01\x01\x01\x01' x 4 + '\xe8\x05\xd9\x1d' "`"
 
 The hexadecimal characters are ordered backwards because of "little endianness".
 Endianness refers to the ordering of bits within a binary representation of a number.

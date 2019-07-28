@@ -20,18 +20,33 @@ Things that happened in Week1
 
 # Case Studies
 
-Tianenmen Square Massacre
+## Tianenmen Square Massacre
 
 In it's wake, Bob Hawke then Prime Minister allowed all of Chinese students currently
-studying in Australia at the time on a student visa automatic asylum. My parents and
-the parents of my friends were all included in that group and were able to remain in
-Australia and is the very reason why I'm here to today.
+studying in Australia at the time on a student visa automatic asylum. 
 
+<Opinion>
 Now this also raises some very interesting concepts on Security, the idea of granting
 automatic asylum to people because of political events + the idea of state manipulated
 events to influence actions of another state.
 
-Halifax Accident
+There are both positive and negative sides to this right? Both my parents were able 
+settle down in Australia after that event but Australia's open (somewhat) policy to
+immigrants has both benefits and disadvantages.
+
+Security engineering is a discipline that embraces different opinions and viewpoints
+and that is obviously a benefit that stems from supporting a diverse population as the
+world transitions into a digital age. (This was the 1980's)
+
+But also this greatly increases the immediate security risk of individuals with
+malicious intent manipulating the system to enter the country. As leaders making these
+decisions you have very minimal control over the actual physicality of things - the 
+micro part of things.
+
+So as a leader you need to be aware of the wider strategy surrounding certain choices
+but also be willing to look into the details of specific things.
+
+## Halifax Accident
 
 Prevention: Regulations/compliance? Communication? The Norwegian ship didn't know
 that the French ship was laden with explosives? Would it have acted differently if it

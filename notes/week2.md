@@ -18,7 +18,9 @@ rules and structure that has been set.
 Now as humans we have free will, and can break out and not follow rules. The complexity
 of the human race is borne from our ability to interact with each other by choice.
 
-(Something to think about) Who in the ant colony came up with the ideas?
+(Something to think about) Who in the ant colony came up with the ideas? There must be
+someone right? Or is this an example of a human applying human social paradigms to a
+species that isn't human?
 
 # Physical Security
 That's actually a good point - although we deal with everything in a virtual world, 
@@ -34,7 +36,7 @@ Now all of this information is closed within the building - but the idea is that
 are left out in the open world. And this is what it means by "every contact leaves a
 trace in the physical world"
 
-So consider physical security measures before software security measures.
+So always consider physical security measures before software security measures.
 
 # Vignere Cipher
 Essentially a Caesar cipher in that the letters are shifted along the alphabet but
@@ -76,10 +78,11 @@ Weaknesses:
 - Re-transmitting a message on different cipher networks
 - Not allowing repetitions
 
+<!-- TODO -->
 # One Time Pad
 OTP is an encryption technique that cannot be cracked, but requires the use of a one
 time, pre-shared key the same size as or longer than the message being sent. In this
-technique, a plain text is paired iwth a random secret key (the OTP). Then, each bit
+technique, a plain text is paired with a random secret key (the OTP). Then, each bit
 or character of the plaintext is encrypted by combining it with the corresponding bit
 or character from the pad using modular addition.
 

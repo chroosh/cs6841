@@ -142,3 +142,55 @@ Lessons learned:
 - Developing better systems for nuclear crisis meltdown - don't use cost as a driving factor
 in influencing design decisions for safety critical systems.
 
+
+# Tesla Cars
+You know you can play games in Tesla cars? Inside each Tesla car is a big ass screen that acts
+as a multi-function display that shows information about the car like navigation, etc.
+
+The games you can play are like Tesla's own proprietary version of Mariokart, which runs on 
+that mft display. When you decide to play the game, the steering column inside a Tesla car 
+unlocks and you turn the steering wheel to control the kart in the game.
+
+Steering column unlocks in the sense that when you turn the steering wheel, the front wheels
+turn as well. Well yikes - there must be some way that this can be manipulated to control the
+front wheels.
+
+I don't know anything about the engineering design of that system so I can't give a definitive
+answer as to whether a hook onto that piece of software is possible. But I think it would be 
+best that when games are played on a Tesla car, the steering column stays locked. 
+
+Even from a non security perspective, unlocking the steering column while the car is parked 
+results in unnecessary wear and tear to the tires of the car, and if in the rare case such that
+a collision from behind occurs while the driver is playing this game, will cause the car to 
+veer in an unexpected direction depending on the steering wheel position at the time of impact.
+
+## HIBP // Canva - also Security Everywhere
+I tried out the HIBP website using one of my old primary emails I used up to the start of 2019.
+It reminded me about the Canva data breach that occured in May 2019, which I also remember
+seeing an email announcement from them about.
+
+At the time also, I remember taking the opportunity to reach out via their PR reply email to see
+if I could build a relationship with them from a SECedu/Summit perspective. Turns out that they 
+don't actually have money for sponsorship/plain not interested. 
+
+Well, that was the case until I was introduced to someone who works there and I was able to 
+invite a recruiter and their Head of Security to join us at the Summit. :)
+
+
+# Security Everywhere
+There was a funny time when a mate of mine played a magic trick on me. Mind you he was much
+older, and experienced in the field of "confidence" and misdirection. (As a business person)
+
+1. He spreads the cards out and asks me to pick the card that I think will be "Ace of Spades"
+2. I pick the card and give it to him and he looks at it and puts it to the side.
+3. The card names in quotation marks are hypothetical cards - can be any card.
+4. Steps 1 && 2 are repeated 4 times.
+5. He then shows 4 cards, and all 4 cards were the cards I picked.
+
+Thing is, embarrassingly when I showed this same trick to a couple girls, it didn't work out so
+well. They immediately realised that part of the trick involved me looking at the cards and
+that's how I'm able to show them the correct 4 cards at the end.
+
+My mate was very good at two things:
+- Confidence (wearing down the individual's ability to critical think)
+- Misdirection (directing someones attention away to something less important)

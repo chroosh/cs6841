@@ -115,5 +115,4 @@ communicate after death, he would use the message "Rosabelle believe"
 using Houdini's private key and perform the action while delivering the 5 word phrase.
 
 - I liked the idea of saying "prove to me so that she doesn't reveal the format of the
-protocol even if the medium somehow decodes the 5 word phrase.
-
+protocol even if the medium somehow decodes the 5 word phrase
